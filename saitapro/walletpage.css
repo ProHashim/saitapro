@@ -1,0 +1,68 @@
+@media (min-width: 310px) and (max-width: 690px) {
+  *,
+  *::after,
+  *::before {
+    box-sizing: border-box;
+  }
+  body {
+    font-family: "Poppins", sans-serif;
+    background-image: url("../images/backg.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+    margin: auto;
+    height: 538px;
+  }
+  .first_heading {
+    text-align: center;
+  }
+  .first_heading h1 {
+    font-size: 32px;
+    font-weight: 800;
+  }
+
+  .logo {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 94px;
+    align-items: center;
+    margin-top: 20px;
+  }
+  .logo img {
+    height: 40px;
+  }
+
+  .walat_paragraph_main {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .walat_paragraph {
+    text-align: center;
+    width: 89%;
+    padding-bottom: 50px;
+  }
+  .walat_paragraph p {
+    margin: auto;
+  }
+  .walat_btn {
+    text-align: center;
+    height: 45px;
+    border-radius: 6px;
+    background-image: linear-gradient(#561b8e, #84346e);
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    width: 85%;
+
+    border: none;
+  }
+  .walat_h3 h3 {
+    margin: auto;
+    padding-top: 8px;
+    font-size: 14px;
+  }
+}
