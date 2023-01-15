@@ -1,0 +1,71 @@
+.wallet_paragraph_main {
+  background-image: url("../images/backg.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  width: 100%;
+  min-height: 100vh;
+}
+.wallet_paragraph_main .content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 100vh;
+  padding: 20% 0;
+}
+
+.first_heading h1 {
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  font-size: 32px;
+  font-weight: 00;
+  margin: 0;
+}
+
+.logo {
+  max-width: 250px;
+  display: flex;
+  justify-content: center;
+  height: 94px;
+  align-items: center;
+  margin-top: 20px;
+}
+.logo img {
+  height: 40px;
+}
+
+
+.text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.wallet_paragraph p {
+  font-family: 'Roboto';
+  color: #777;
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+.wallet_btn {
+  text-align: center;
+  height: 45px;
+  border-radius: 10px;
+  background-image: linear-gradient(#561b8e, #84346e);
+  color: white;
+  font-size: 16px;
+  font-weight: 400;
+  width: 100%;
+  font-family: 'Poppins';
+  border: none;
+}
+.import {
+  margin: auto;
+  padding-top: 8px;
+  font-size: 1rem;
+  text-decoration: none;
+  color: #111;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+
+}
