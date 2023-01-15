@@ -12,3 +12,8 @@ body {
     max-width: 690px;
     margin: auto;
 }
+a {
+  font-size: 1rem;
+  text-decoration: none;
+  color: #111;
+}

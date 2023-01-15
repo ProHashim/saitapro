@@ -1,12 +1,155 @@
-@media (min-width: 310px) and (max-width: 690px) {
-  body {
-    font-family: "Poppins", sans-serif;
-    background-image: url("../images/elimination.gif");
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
-    width: 100%;
-    margin: auto;
-    height: 538px;
-    border: solid;
-  }
+header,
+.slider,
+.actions,
+.footer,
+footer,
+.assets {
+  padding: 20px;
+  max-width: 410px;
+  margin: auto;
+}
+/* header */
+header {
+  display: flex;
+  justify-content: space-between;
+}
+header i {
+  font-size: 25px;
+}
+header i:first-child {
+  margin-right: 20px;
+}
+.logo img {
+  max-width: 120px;
+}
+ol.carousel-indicators {
+  bottom: -40px !important;
+}
+ol.carousel-indicators li {
+  width: 10px;
+  height: 10px;
+  background-color: rgba(153, 153, 153, 0.39);
+  border-radius: 50%;
+  margin: 0 7px;
+}
+.carousel-indicators li.active {
+  background-color: #777;
+}
+.carousel-item img {
+  border-radius: 5px;
+}
+
+/* actions */
+.actions {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+.actions div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  justify-content: center;
+  padding: 15px 30px 15px 30px;
+}
+.actions div i {
+  font-size: 30px;
+}
+.actions .swap {
+  background-color: blue;
+  border-radius: 10px;
+}
+.actions .stake {
+  background-color: #cd4cc0;
+  border-radius: 10px;
+}
+.actions .card-pay {
+  background-color: turquoise;
+  border-radius: 10px;
+}
+/* assets */
+
+.assets .head {
+  display: flex;
+  justify-content: space-between;
+  font-family: "Roboto";
+  border-bottom: 1px solid rgba(153, 153, 153, 0.466);
+  margin-bottom: 40px;
+}
+.head h5.heading {
+  color: #111;
+}
+.head span {
+  color: #777;
+}
+/* assets row */
+.coin .content {
+  display: flex;
+  align-items: center;
+}
+.coins-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "Roboto", sans-serif;
+  position: relative;
+}
+.assets .first{
+  padding-top: 30px;
+}
+
+.coins-row .name {
+  width: max-content;
+  color: #777;
+  font-family: "Roboto", sans-serif;
+  margin-bottom: 10px;
+  position: absolute;
+  top: 0px;
+  /* padding-top: 30px; */
+}
+.coin .coin-name {
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+}
+.coins-row .logo img {
+  max-width: 40px;
+  margin-right: 10px;
+}
+.coins-row > :not(caption) > * > * {
+  padding: 0;
+}
+.change {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* footer */
+.footer {
+  background-color: white;
+  z-index: 2;
+  position: fixed;
+  bottom: 0;
+  /* left: 0; */
+  min-width: 410px;
+  display: flex;
+  justify-content: space-evenly;
+  min-height: 40px;
+  border-top: 1px solid #777;
+  align-items: center;
+  padding: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.active {
+  color: #cd4cc0;
+}
+.icon .title {
+  font-family: "Poppins", sans-serif;
 }
